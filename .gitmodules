@@ -10,3 +10,6 @@
 [submodule "lib/openzeppelin-contracts"]
 	path = lib/openzeppelin-contracts
 	url = https://github.com/Openzeppelin/openzeppelin-contracts
+[submodule "contracts/lib/openzepplin-contracts"]
+	path = contracts/lib/openzepplin-contracts
+	url = https://github.com/openzepplin/openzepplin-contracts
