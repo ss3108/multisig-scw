@@ -62,9 +62,9 @@ contract Wallet is
 
     function _validateSignature(
         UserOperation calldata userOp,
-        bytes32 userOpHash
+        bytes memory userOpHash
     ) internal view override returns (uint256) {
-        bytes32 hash = userOpHash.toEthSignedMessageHash();
+        bytes32 hash = address(uint160(uint256(userOpHash))).toEthSignedMessageHash();
         bytes[] memory signatures = abi.decode(userOp.signature, (bytes[]));
 
         for (uint256 i = 0; i < owners.length; i++) {
