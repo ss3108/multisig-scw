@@ -1,4 +1,4 @@
-export const WALLET_FACTORY_ADDRESS = "YOUR_CONTRACT_ADDRESS";
+export const WALLET_FACTORY_ADDRESS = "0x9e3B7de91CdA22f36117f11c17B15C6264594f35";
 
 export const BUNDLER_RPC_URL = `https://api.stackup.sh/v1/node/${process.env.NEXT_PUBLIC_STACKUP_API_KEY}`;
 
