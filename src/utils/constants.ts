@@ -129,3 +129,7 @@ export const WALLET_ABI = [
     type: "function",
   },
 ] as const;
+
+function newFunction() {
+  console.log("NEXT_PUBLIC_STACKUP_API_KEY:", process.env.NEXT_PUBLIC_STACKUP_API_KEY);
+}
