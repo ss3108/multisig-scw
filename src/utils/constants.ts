@@ -1,6 +1,6 @@
 export const WALLET_FACTORY_ADDRESS = "0x9e3B7de91CdA22f36117f11c17B15C6264594f35";
 
-export const BUNDLER_RPC_URL = `https://api.stackup.sh/v1/node/${process.env.NEXT_PUBLIC_STACKUP_API_KEY}`;
+export const BUNDLER_RPC_URL = `https://api.stackup.sh/v1/node/de461bfbdb0b0fc3eb9d0dc81bec5c83835b616a2fea1edd1475c0f3e49575cc}`;
 
 export const WALLET_FACTORY_ABI = [
   {
